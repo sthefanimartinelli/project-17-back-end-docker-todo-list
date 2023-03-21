@@ -4,9 +4,13 @@ WORKDIR /app
 
 EXPOSE 3001
 
-ADD node_modules.tar.gz /app
+ADD node_modules.tar.gz .
 
-COPY . /app
+COPY ./src ./src
+
+COPY package.json .
+
+COPY package-lock.json .
 
 ENTRYPOINT [ "npm" ]
 
