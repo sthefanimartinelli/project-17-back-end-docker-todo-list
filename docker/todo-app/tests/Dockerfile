@@ -1,8 +1,10 @@
 FROM mjgargani/puppeteer:trybe1.0
 
-ADD node_modules.tar.gz ./app
+WORKDIR /app
 
-COPY . ./app
+ADD node_modules.tar.gz /app
+
+COPY . /app
 
 ENTRYPOINT [ "npm" ]
 
