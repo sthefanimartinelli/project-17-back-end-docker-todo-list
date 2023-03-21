@@ -1,1 +1,1 @@
-docker container start --attach -i 01container
+docker container start 01container
