@@ -1,1 +1,5 @@
+Escreva um comando que fará o build(documentação do comando) de uma imagem
+a partir do arquivo ./docker/todo-app/front-end/Dockerfile, esta imagem
+deve ter o nome todofrontend.
+
 docker image build -t todofrontend ./todo-app/front-end

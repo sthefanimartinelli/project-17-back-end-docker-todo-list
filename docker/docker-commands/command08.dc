@@ -1,1 +1,3 @@
+Pare o container 02images que está em andamento
+
 docker stop 02images
