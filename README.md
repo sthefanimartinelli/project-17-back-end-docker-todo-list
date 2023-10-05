@@ -1,17 +1,19 @@
-# :whale: Projeto Docker To-Do List :whale:
+# :whale: Docker To-Do List Project :whale:
 
-Nesse projeto foram realizadas 3 tarefas principais:
+In this project, 3 main tasks were carried out:
 
-- Criação de imagens e containers para as aplicações de backend, frontend e testes, por meio de comandos CLI presentes no diretório docker-commands;
-- Criação dos Dockerfiles para as aplicações de backend, frontend e testes, seguindo as especificações definidas pelo projeto;
-- Orquestração dos containers por meio do docker-compose.yml, utilizando as imagens "buildadas" anteriormente e seguindo as especificações definidas pelo projeto.
+- Creation of images and containers for back-end, front-end, and testing applications, using CLI commands present in the docker-commands directory;
+- Creation of Dockerfiles for back-end, front-end, and testing applications, following the specifications defined by the project;
+- Orchestration of containers through docker-compose.yml, using previously built images and following the specifications defined by the project.
 
-Os demais arquivos foram desenvolvidos pela Trybe.
+The remaining files were developed by Trybe.
 
-Para inicializar o projeto:
-- git clone git@github.com:sthefanimartinelli/project-17-back-end-docker-todo-list.git
+To initialize the project:
+Clone the repository and run the commands below:
+```
 - cd docker
 - docker image build -t todobackend ./todo-app/back-end/
 - docker image build -t todofrontend ./todo-app/front-end
 - docker image build -t todotests ./todo-app/tests
 - docker compose up
+```
