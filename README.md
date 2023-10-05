@@ -8,7 +8,7 @@ In this project, 3 main tasks were carried out:
 
 The remaining files were developed by Trybe.
 
-To initialize the project:
+### To start the project:
 Clone the repository and run the commands below:
 ```
 - cd docker
